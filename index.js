@@ -34,7 +34,7 @@ var server = http.createServer(function(request, response) {
     console.log("path", path, "\n");
     try {
         if (path === "/") {
-            var str = fs.readFileSync("./index.html");
+            var str = fs.readFileSync("./first.html");
             // var str = fs.readFile("./index.html", "uft-8", function(err, data) {
             //     // if(data.contentType=="image/png"){
             //     //     data.
