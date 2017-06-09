@@ -208,21 +208,21 @@ a {
     opacity: .4;
   }
   .main .ct ul a:first-child {
-    background: url(http://img.027cgb.cn/20170601/201769688332558098.jpg);
+    background: url("1.jpg");
     margin-left: 0;
     background-size: cover;
   }
   .main .ct ul a:nth-child(2) {
-    background: url(http://img.027cgb.cn/20170601/201769219295036502.jpg);
+    background: url("2.jpg");
     background-size: cover;
   }
   .main .ct ul a:nth-child(3) {
-    background: url(http://img.027cgb.cn/20170601/201769594100673815.jpg);
+    background: url("3.jpg");
     margin-left: 0;
     background-size: cover;
   }
   .main .ct ul a:nth-child(4) {
-    background: url(http://img.027cgb.cn/20170601/2017698751821910492.jpg);
+    background: url("4.jpg");
     background-size: cover;
   }
   .main .ct ul a li {
@@ -384,21 +384,21 @@ a {
     margin-bottom: 20px;
   }
   .main .ct ul a:first-child {
-    background: url(http://img.027cgb.cn/20170601/201769688332558098.jpg);
+    background: url("1.jpg");
     margin-left: 0;
     background-size: cover;
   }
   .main .ct ul a:nth-child(2) {
-    background: url(http://img.027cgb.cn/20170601/201769219295036502.jpg);
+    background: url("2.jpg");
     background-size: cover;
   }
   .main .ct ul a:nth-child(3) {
-    background: url(http://img.027cgb.cn/20170601/201769594100673815.jpg);
+    background: url("3.jpg");
     margin-left: 0;
     background-size: cover;
   }
   .main .ct ul a:nth-child(4) {
-    background: url(http://img.027cgb.cn/20170601/2017698751821910492.jpg);
+    background: url("4.jpg");
     background-size: cover;
   }
   .main .ct ul a li {
