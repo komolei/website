@@ -6,6 +6,26 @@
            this.none = none;
            this.mouseover();
            this.mouseleave();
+           this.click();
+
+       }
+       Dropdown.prototype.click = function() {
+           this.li = Array.prototype.slice.call(this.li)
+           var _this = this;
+           this.div.addEventListener("click", function(e) {
+               if (e.target.tagName.toLowerCase() === "li") {
+                   _this.li.forEach(function(idx, element) {
+                       idx.classList.remove("addbg");
+                   });
+                   if (e.target.className.toLowerCase() == "third") {
+                       _this.i.classList.add("addi");
+                       _this.none.forEach(function(element) {
+                           element.classList.remove("none");
+                       }, this);
+                   }
+                   e.target.classList.add("addbg");
+               }
+           })
        }
        Dropdown.prototype.mouseover = function() {
            this.li = Array.prototype.slice.call(this.li)
