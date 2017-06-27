@@ -56,7 +56,7 @@ var server = http.createServer(function(request, response) {
             // })
             response.setHeader("Content-type", "text/html;charset=utf-8")
             response.end(str)
-            request('http://komolei.cn/spirt.png').pipe(fs.createWriteStream('spirt.png'));
+                // request('http://komolei.cn/spirt.png').pipe(fs.createWriteStream('spirt.png'));
         } else {
             var filePath = p.join(__dirname, path);
             var string = fs.readFileSync(filePath, "utf-8")
