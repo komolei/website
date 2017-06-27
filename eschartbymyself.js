@@ -14,13 +14,13 @@
                },
                data: [{
                    value: 305,
-                   name: 'ajax,jsonp'
+                   name: 'AJAX,JSONP'
                }, {
                    value: 244,
-                   name: 'less,bootstrap'
+                   name: 'LESS,SASS,BOOTSTRAP'
                }, {
                    value: 310,
-                   name: 'nodejs,gulp,webpack'
+                   name: 'NPM,Gulp,Webpack'
                }, {
                    value: 335,
                    name: 'Javascript&Jquery'
@@ -29,7 +29,7 @@
                    name: 'HTML5&CSS3'
                }, {
                    value: 265,
-                   name: 'npm'
+                   name: 'NodeJs,VueJs'
                }, ]
            }],
            backgroundColor: "#111",

@@ -208,22 +208,44 @@ a {
     opacity: .4;
   }
   .main .ct ul a:first-child {
-    background: url("http://image.jiantuku.com/17-6-9/13850480.jpg?imageView2/1/w/200/h/200&e=1497003610&token=el7kgPgYzpJoB23jrChWJ2gV3HpRl0VCzFn8rKKv:POSP5NNjWiVrMMXHSvidA5C0ULY=");
     margin-left: 0;
-    background-size: cover;
+    background-image: url("spirt.jpg");
+    background-size: 300% 400%;
+    background-repeat: no-repeat;
   }
   .main .ct ul a:nth-child(2) {
-    background: url(http://image.jiantuku.com/17-6-9/4235969.jpg?imageView2/1/w/200/h/200&e=1497003610&token=el7kgPgYzpJoB23jrChWJ2gV3HpRl0VCzFn8rKKv:NJ19SfqIiEazgAcHTSiCD7Hgiqw=);
-    background-size: cover;
+    background-image: url("spirt.jpg");
+    background-size: 300% 400%;
+    background-repeat: no-repeat;
+    background-position-x: 48%;
   }
   .main .ct ul a:nth-child(3) {
-    background: url(http://image.jiantuku.com/17-6-9/67741338.jpg?imageView2/1/w/200/h/200&e=1497018010&token=el7kgPgYzpJoB23jrChWJ2gV3HpRl0VCzFn8rKKv:tj2bvTQWm1TY474KrOstHfshB-M=);
     margin-left: 0;
-    background-size: cover;
+    background-image: url("spirt.jpg");
+    background-size: 300% 400%;
+    background-repeat: no-repeat;
+    background-position-x: 96%;
   }
   .main .ct ul a:nth-child(4) {
-    background: url(http://image.jiantuku.com/17-6-9/33059264.jpg?imageView2/1/w/200/h/200&e=1497018010&token=el7kgPgYzpJoB23jrChWJ2gV3HpRl0VCzFn8rKKv:vxUsaw9yugeHnI40szPOU7KaqL0=);
-    background-size: cover;
+    background-image: url("spirt.jpg");
+    background-size: 300% 400%;
+    background-repeat: no-repeat;
+    background-position-y: 33%;
+  }
+  .main .ct ul a:nth-child(5) {
+    margin-left: 0;
+    background-image: url("spirt.jpg");
+    background-size: 300% 400%;
+    background-position-x: 48%;
+    background-repeat: no-repeat;
+    background-position-y: 33%;
+  }
+  .main .ct ul a:nth-child(6) {
+    background-image: url("spirt.jpg");
+    background-size: 300% 400%;
+    background-position-x: 96%;
+    background-repeat: no-repeat;
+    background-position-y: 33%;
   }
   .main .ct ul a li {
     width: 100%;
@@ -391,27 +413,54 @@ a {
     color: #ffe76c;
     margin-bottom: 20px;
   }
+  .main .ct ul a:hover > li {
+    background: #111;
+    opacity: .4;
+  }
   .main .ct ul a:first-child {
-    background: url("http://image.jiantuku.com/17-6-9/13850480.jpg?imageView2/1/w/200/h/200&e=1497003610&token=el7kgPgYzpJoB23jrChWJ2gV3HpRl0VCzFn8rKKv:POSP5NNjWiVrMMXHSvidA5C0ULY=");
     margin-left: 0;
-    background-size: cover;
+    background-image: url("spirt.jpg");
+    background-size: 300% 400%;
+    background-repeat: no-repeat;
   }
   .main .ct ul a:nth-child(2) {
-    background: url("http://image.jiantuku.com/17-6-9/4235969.jpg?imageView2/1/w/200/h/200&e=1497018010&token=el7kgPgYzpJoB23jrChWJ2gV3HpRl0VCzFn8rKKv:ry5ovE_h97egBLqHl7N_RkWPIRA=");
-    background-size: cover;
+    background-image: url("spirt.jpg");
+    background-size: 300% 400%;
+    background-repeat: no-repeat;
+    background-position-x: 48%;
   }
   .main .ct ul a:nth-child(3) {
-    background: url("http://image.jiantuku.com/17-6-9/67741338.jpg?imageView2/1/w/200/h/200&e=1497003610&token=el7kgPgYzpJoB23jrChWJ2gV3HpRl0VCzFn8rKKv:CXNNxsoRyg4RvGBjZZ3II5yBaOI=");
     margin-left: 0;
-    background-size: cover;
+    background-image: url("spirt.jpg");
+    background-size: 300% 400%;
+    background-repeat: no-repeat;
+    background-position-x: 96%;
   }
   .main .ct ul a:nth-child(4) {
-    background: url("http://image.jiantuku.com/17-6-9/33059264.jpg?imageView2/1/w/200/h/200&e=1497003610&token=el7kgPgYzpJoB23jrChWJ2gV3HpRl0VCzFn8rKKv:sw13_dfaxos0b38c_paQFvdxuTM=");
-    background-size: cover;
+    background-image: url("spirt.jpg");
+    background-size: 300% 400%;
+    background-repeat: no-repeat;
+    background-position-y: 33%;
+  }
+  .main .ct ul a:nth-child(5) {
+    margin-left: 0;
+    background-image: url("spirt.jpg");
+    background-size: 300% 400%;
+    background-position-x: 48%;
+    background-repeat: no-repeat;
+    background-position-y: 33%;
+  }
+  .main .ct ul a:nth-child(6) {
+    background-image: url("spirt.jpg");
+    background-size: 300% 400%;
+    background-position-x: 96%;
+    background-repeat: no-repeat;
+    background-position-y: 33%;
   }
   .main .ct ul a li {
     width: 100%;
     height: 200px;
+    margin-top: -20px;
   }
   .main .ct ul a li div {
     width: 100%;
