@@ -59,7 +59,7 @@ timeer.prototype.addEvent = function() {
         c = parseInt(n / 1e3) % 60;
     o >= 10 ? $(".timeout-show-first").text(o) : $(".timeout-show-first").text("0" + o), i >= 10 ? $(".timeout-show-second").text(i) : $(".timeout-show-second").text("0" + i), c >= 10 ? $(".timeout-show-third").text(c) : $(".timeout-show-third").text("0" + c)
 };
-var old = "2017,6,11 00:00:00";
+var old = "2017,7,11 00:00:00";
 setInterval("new timeer(old)", 1e3), $(".bigct-4-carousel").on("mouseover", function() { $(".bigct-4-btn").each(function(e, t) { $(t).css({ visibility: "visible" }) }) }), $(".bigct-4-carousel").on("mouseleave", function() { $(".bigct-4-btn").each(function(e, t) { $(t).css({ visibility: "hidden" }) }) });
 var index = 0,
     lock = !1;
